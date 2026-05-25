@@ -1,0 +1,23 @@
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  font-weight: 500;
+  transition: border-color 0.2s, transform 0.15s;
+}
+
+.link:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
